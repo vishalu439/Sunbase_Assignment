@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunbase Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="form-designer">
+      <h3 id="form-designer-text">Form Designer</h3>
+      <button id="save-form">Save Form</button>
+    </div>
+    <div class="container">
+      <div class="components">
+        <div class="components-sub-component">
+          <h3 class="components-text">Components</h3>
+          <div class="accordian">
+            <div class="accordian-item">
+              <h3>Input</h3>
+              <button id="addInput" class="accordian-button">+</button>
+            </div>
+
+            <div class="accordian-item">
+              <h3>Select</h3>
+              <button id="addSelect" class="accordian-button">+</button>
+            </div>
+
+            <div class="accordian-item">
+              <h3>Textarea</h3>
+              <button id="addTextarea" class="accordian-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-builder-div">
+        <div id="form-builder"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
